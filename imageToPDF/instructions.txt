@@ -1,0 +1,8 @@
+Instructions
+
+1. Copy imageToPDF folder in www folder
+2. Start your web server(WAMP, XAMP or LAMP )
+3. Open Web browser and type "localhost/imageToPDF/index.html" in url
+4. Click "Choose files" button and browse and select as many images you want.
+5. After that click "Upload File" button
+		!!Your PDF file is generated!!

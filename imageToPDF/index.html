@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Image to PDF</title>
+	</head>
+	<body>
+	<h1 align=center>Generate PDF of Images</h1>
+		<form method="post" enctype="multipart/form-data" name="formUploadFile" action="generatePDF.php">		
+			<table>
+			<tr>
+			<td>Select file to upload:</td>
+			<td><input type="file" name="files[]" multiple="multiple" accept="image/*"/></td>	
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td><input  type="submit" value="Upload File" name="btnSubmit"  /></td>
+			</tr>
+			</table>
+			
+			
+		</form>		
+		
+	</body>
+</html>
